@@ -27,6 +27,6 @@ namespace AutEmplAcc.Model
         public string Phone { get; set; }
 
         public int? BranchId { get; set; } // Внешний ключ
-        public virtual Branch? Branch { get; set; } // Навигационное свойство для связи
+        public virtual Branches? Branches { get; set; } // Навигационное свойство для связи
     }
 }

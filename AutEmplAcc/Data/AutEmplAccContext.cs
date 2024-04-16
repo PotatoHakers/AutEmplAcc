@@ -13,6 +13,7 @@ namespace AutEmplAcc.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Branches> Branches { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -23,11 +24,12 @@ namespace AutEmplAcc.Data
         {
 
             modelBuilder.Entity<Employee>()
-       .HasOne(e => e.Branch)
+       .HasOne(e => e.Branches)
        .WithMany(b => b.Employees)
        .HasForeignKey(e => e.BranchId)
        .OnDelete(DeleteBehavior.Restrict);
         }
+
     }
 
 }

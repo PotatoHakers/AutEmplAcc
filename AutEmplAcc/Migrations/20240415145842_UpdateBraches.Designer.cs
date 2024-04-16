@@ -4,6 +4,7 @@ using AutEmplAcc.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AutEmplAcc.Migrations
 {
     [DbContext(typeof(AutEmplAccContext))]
-    partial class AutEmplAccContextModelSnapshot : ModelSnapshot
+    [Migration("20240415145842_UpdateBraches")]
+    partial class UpdateBraches
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,7 +25,7 @@ namespace AutEmplAcc.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AutEmplAcc.Model.Branches", b =>
+            modelBuilder.Entity("AutEmplAcc.Model.Branch", b =>
                 {
                     b.Property<int?>("BranchId")
                         .ValueGeneratedOnAdd()
@@ -88,15 +91,15 @@ namespace AutEmplAcc.Migrations
 
             modelBuilder.Entity("AutEmplAcc.Model.Employee", b =>
                 {
-                    b.HasOne("AutEmplAcc.Model.Branches", "Branches")
+                    b.HasOne("AutEmplAcc.Model.Branch", "Branch")
                         .WithMany("Employees")
                         .HasForeignKey("BranchId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.Navigation("Branches");
+                    b.Navigation("Branch");
                 });
 
-            modelBuilder.Entity("AutEmplAcc.Model.Branches", b =>
+            modelBuilder.Entity("AutEmplAcc.Model.Branch", b =>
                 {
                     b.Navigation("Employees");
                 });

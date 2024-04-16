@@ -2,7 +2,7 @@
 
 namespace AutEmplAcc.Model
 {
-    public class Branch
+    public class Branches
     {
         [Key]
         public int? BranchId { get; set; }

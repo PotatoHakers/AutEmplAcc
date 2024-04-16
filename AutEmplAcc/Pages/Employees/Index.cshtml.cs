@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -19,7 +18,8 @@ namespace AutEmplAcc.Pages.Employees
             _context = context;
         }
 
-        public IList<Employee> Employee { get;set; } = default!;
+        public IList<Employee> Employee { get; set; } = default!;
+        public List<Branches> Branches { get; set; }
 
         public async Task OnGetAsync()
         {
@@ -27,6 +27,23 @@ namespace AutEmplAcc.Pages.Employees
             {
                 Employee = await _context.Employees.ToListAsync();
             }
+            Branches = await _context.Branches.ToListAsync();
+        }
+
+        public async Task<IActionResult> OnPostShowEmployeesAsync(int branchId)
+        {
+
+            var branch = await _context.Branches
+        .Include(b => b.Employees)
+        .FirstOrDefaultAsync(b => b.BranchId == branchId);
+
+            if (branch != null)
+            {
+                return Partial("_EmployeeListPartial", branch.Employees);
+            }
+
+            return NotFound();
+
         }
     }
 }

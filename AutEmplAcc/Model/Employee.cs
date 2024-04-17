@@ -28,5 +28,6 @@ namespace AutEmplAcc.Model
 
         public int? BranchId { get; set; } // Внешний ключ
         public virtual Branches? Branches { get; set; } // Навигационное свойство для связи
+
     }
 }

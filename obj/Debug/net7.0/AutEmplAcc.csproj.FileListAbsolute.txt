@@ -242,12 +242,12 @@ C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\staticwebass
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\scopedcss\bundle\AutEmplAcc.styles.css
-C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\scopedcss\projectbundle\AutEmplAcc.bundle.scp.css
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\AutEmplAcc.csproj.CopyComplete
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\AutEmplAcc.dll
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\refint\AutEmplAcc.dll
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\AutEmplAcc.pdb
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\AutEmplAcc.genruntimeconfig.cache
 C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\ref\AutEmplAcc.dll
+C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\scopedcss\projectbundle\AutEmplAcc.bundle.scp.css
+C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css

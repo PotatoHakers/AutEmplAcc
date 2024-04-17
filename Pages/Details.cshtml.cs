@@ -8,19 +8,18 @@ using Microsoft.EntityFrameworkCore;
 using AutEmplAcc.Data;
 using AutEmplAcc.Model;
 
-namespace AutEmplAcc.Pages.Employees
+namespace AutEmplAcc.Pages
 {
-    public class DeleteModel : PageModel
+    public class DetailsModel : PageModel
     {
         private readonly AutEmplAcc.Data.AutEmplAccContext _context;
 
-        public DeleteModel(AutEmplAcc.Data.AutEmplAccContext context)
+        public DetailsModel(AutEmplAcc.Data.AutEmplAccContext context)
         {
             _context = context;
         }
 
-        [BindProperty]
-      public Employee Employee { get; set; } = default!;
+      public Employee Employee { get; set; } = default!; 
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -30,7 +29,6 @@ namespace AutEmplAcc.Pages.Employees
             }
 
             var employee = await _context.Employees.FirstOrDefaultAsync(m => m.Id == id);
-
             if (employee == null)
             {
                 return NotFound();
@@ -40,24 +38,6 @@ namespace AutEmplAcc.Pages.Employees
                 Employee = employee;
             }
             return Page();
-        }
-
-        public async Task<IActionResult> OnPostAsync(int? id)
-        {
-            if (id == null || _context.Employees == null)
-            {
-                return NotFound();
-            }
-            var employee = await _context.Employees.FindAsync(id);
-
-            if (employee != null)
-            {
-                Employee = employee;
-                _context.Employees.Remove(Employee);
-                await _context.SaveChangesAsync();
-            }
-
-            return RedirectToPage("./Index");
         }
     }
 }

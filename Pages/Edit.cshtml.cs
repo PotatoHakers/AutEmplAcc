@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using AutEmplAcc.Data;
 using AutEmplAcc.Model;
 
-namespace AutEmplAcc.Pages.Employees
+namespace AutEmplAcc.Pages
 {
     public class EditModel : PageModel
     {
@@ -36,6 +36,7 @@ namespace AutEmplAcc.Pages.Employees
                 return NotFound();
             }
             Employee = employee;
+           ViewData["BranchId"] = new SelectList(_context.Branches, "BranchId", "Name");
             return Page();
         }
 

@@ -1,5 +1,5 @@
 ﻿@page
-@model AutEmplAcc.Pages.Employees.DeleteModel
+@model AutEmplAcc.Pages.DeleteModel
 
 @{
     ViewData["Title"] = "Delete";
@@ -47,6 +47,12 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Employee.Phone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Employee.Branches)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Employee.Branches.Name)
         </dd>
     </dl>
     

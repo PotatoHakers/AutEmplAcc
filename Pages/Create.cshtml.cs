@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using AutEmplAcc.Data;
 using AutEmplAcc.Model;
 
-namespace AutEmplAcc.Pages.Employees
+namespace AutEmplAcc.Pages
 {
     public class CreateModel : PageModel
     {
@@ -21,6 +21,7 @@ namespace AutEmplAcc.Pages.Employees
 
         public IActionResult OnGet()
         {
+        ViewData["BranchId"] = new SelectList(_context.Branches, "BranchId", "Name");
             return Page();
         }
 

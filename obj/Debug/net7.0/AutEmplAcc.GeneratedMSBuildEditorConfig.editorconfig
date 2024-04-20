@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mix123\source\repos\AutEmplAcc\AutEmplAcc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/Branch/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/Branch/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/Branch/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/Branch/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/Branch/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/Employees/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/_BranchListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0JyYW5jaExpc3RQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mix123/source/repos/AutEmplAcc/AutEmplAcc/Pages/_ViewImports.cshtml]

@@ -9,6 +9,33 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site2.css",
+      "PackagePath": "staticwebassets\\css\\site2.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site3.css",
+      "PackagePath": "staticwebassets\\css\\site3.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site4.css",
+      "PackagePath": "staticwebassets\\css\\site4.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site5.css",
+      "PackagePath": "staticwebassets\\css\\site5.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site6.css",
+      "PackagePath": "staticwebassets\\css\\site6.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\tableEmpl.css",
+      "PackagePath": "staticwebassets\\css\\tableEmpl.css"
+    },
+    {
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

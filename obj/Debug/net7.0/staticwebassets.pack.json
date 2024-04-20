@@ -9,12 +9,124 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site2.css",
+      "PackagePath": "staticwebassets\\css\\site2.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site3.css",
+      "PackagePath": "staticwebassets\\css\\site3.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site4.css",
+      "PackagePath": "staticwebassets\\css\\site4.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site5.css",
+      "PackagePath": "staticwebassets\\css\\site5.css"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\css\\site6.css",
+      "PackagePath": "staticwebassets\\css\\site6.css"
+    },
+    {
       "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\fonts\\6IelDmhhwOgY.ttf",
+      "PackagePath": "staticwebassets\\fonts\\6IelDmhhwOgY.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\fonts\\UJbPHypNu0Bk.ttf",
+      "PackagePath": "staticwebassets\\fonts\\UJbPHypNu0Bk.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\fonts\\ZzJLs72bulJW.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ZzJLs72bulJW.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\53wgmJ5oKYHg.png",
+      "PackagePath": "staticwebassets\\images\\53wgmJ5oKYHg.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\9LUn2pN6WnR6.png",
+      "PackagePath": "staticwebassets\\images\\9LUn2pN6WnR6.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\GvrXsIHsg2B1.png",
+      "PackagePath": "staticwebassets\\images\\GvrXsIHsg2B1.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\L1WUituqU45F.png",
+      "PackagePath": "staticwebassets\\images\\L1WUituqU45F.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\LvYEXIsXyxvD.png",
+      "PackagePath": "staticwebassets\\images\\LvYEXIsXyxvD.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\OwTjF9kEqgt1.png",
+      "PackagePath": "staticwebassets\\images\\OwTjF9kEqgt1.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\PPlUArolAi5l.png",
+      "PackagePath": "staticwebassets\\images\\PPlUArolAi5l.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\QIak8pUTvvuI.png",
+      "PackagePath": "staticwebassets\\images\\QIak8pUTvvuI.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\Rvkd4GE0sItn.png",
+      "PackagePath": "staticwebassets\\images\\Rvkd4GE0sItn.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\WGHfPQk5Unrz.svg",
+      "PackagePath": "staticwebassets\\images\\WGHfPQk5Unrz.svg"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\YO0oZBYYNuRU.svg",
+      "PackagePath": "staticwebassets\\images\\YO0oZBYYNuRU.svg"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\abXoBmb2m8yF.png",
+      "PackagePath": "staticwebassets\\images\\abXoBmb2m8yF.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\atMsaWvUOZlO.png",
+      "PackagePath": "staticwebassets\\images\\atMsaWvUOZlO.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\by6eHTghJ56r.png",
+      "PackagePath": "staticwebassets\\images\\by6eHTghJ56r.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\fxo1i8tZPWLF.svg",
+      "PackagePath": "staticwebassets\\images\\fxo1i8tZPWLF.svg"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\iLo7Sz8kmh5n.png",
+      "PackagePath": "staticwebassets\\images\\iLo7Sz8kmh5n.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\oBF5e2PS3XUW.png",
+      "PackagePath": "staticwebassets\\images\\oBF5e2PS3XUW.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\oVe4dMtwgjNR.png",
+      "PackagePath": "staticwebassets\\images\\oVe4dMtwgjNR.png"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\images\\ovXkkNcDqn8t.png",
+      "PackagePath": "staticwebassets\\images\\ovXkkNcDqn8t.png"
+    },
+    {
       "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\js\\site2.js",
+      "PackagePath": "staticwebassets\\js\\site2.js"
     },
     {
       "Id": "C:\\Users\\mix123\\source\\repos\\AutEmplAcc\\AutEmplAcc\\wwwroot\\lib\\bootstrap\\LICENSE",

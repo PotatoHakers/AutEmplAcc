@@ -1,0 +1,59 @@
+﻿@model IEnumerable<AutEmplAcc.Model.Employee>
+<<<<<<< Updated upstream:Pages/Employees/_EmployeeListPartial.cshtml
+
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/tableEmpl.css" />
+</head>
+<body>
+<div id="branchAddress">
+</div>
+>>>>>>> Stashed changes:Pages/_EmployeeListPartial.cshtml
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Возраст</th>
+            <th>Должность</th>
+            <th>Адрес</th>
+            <th>Паспортные данные</th>
+            <th>Телефон</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Name</td>
+                <td>@employee.Age</td>
+                <td>@employee.Position</td>
+                <td>@employee.Address</td>
+                <td>@employee.PassportData</td>
+                <td>@employee.Phone</td>
+<<<<<<< Updated upstream:Pages/Employees/_EmployeeListPartial.cshtml
+            </tr>
+        }
+    </tbody>
+</table>
+=======
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@employee.Id">Изменить</a> |
+                    <a asp-page="./Details" asp-route-id="@employee.Id">Детали</a> |
+                    <a asp-page="./Delete" asp-route-id="@employee.Id">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+    <p class="linkCreateEmpl">
+    <a asp-page="Create">Добавить сотрудника</a>
+</p>
+    <p class="linkCreateEmplBack ">
+    <a asp-page="Index">Назад</a>
+</p>
+</body>
+</html>
+
+>>>>>>> Stashed changes:Pages/_EmployeeListPartial.cshtml

@@ -45,3 +45,42 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-image: linear-gradient(to right, #e6e6e6, #f2f2f2);
 }
+.chooseBranchBox {
+    padding: 30px;
+    background: #f3f6f9;
+}
+.showEmpButton {
+    padding: 12px 30px;
+    background: #39d196;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition: 0.2s;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+h5 {
+    color :#000000;
+}
+
+.createBranchClass {
+    color: #2d3e50;
+}
+.empl {
+    width:50%;
+}
+.selectBranch {
+    padding: 12px 30px;
+    background: white;
+    color: #000000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition: 0.2s;
+    font-weight: 600;
+    border: none;
+    border-radius : 10px;
+}
